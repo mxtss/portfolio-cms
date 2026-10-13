@@ -150,6 +150,10 @@ STORAGES = {
     },
 }
 
+STATICFILES_STORAGE = (
+    "whitenoise.storage.CompressedManifestStaticFilesStorage"
+)
+
 import cloudinary
 
 cloudinary.config(
