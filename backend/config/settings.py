@@ -149,7 +149,7 @@ STORAGES = {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
 }
-import os
+
 import cloudinary
 
 cloudinary.config(
